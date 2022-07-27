@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/hello', async (req, res) => {
-  res.json('hello world');
+  res.json({ data: 'hello' });
 });
 
 const PORT = 4000;
